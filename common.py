@@ -12,7 +12,7 @@ def setUp_():
     # reqId时间戳拼接随机数
     reqId =ts + ran
     # 密匙
-    secret = 'fc89240288f213e999adc09e6bad4101'
+    secret = 'xxxxxxxxxxxx1'
     #请求头
     header = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36"}
     #数据库
@@ -22,7 +22,7 @@ def setUp_():
     #测试liveId
     liveId = "310000108181722"
     #测试地址
-    host = "http://118.31.237.84:8080"
+    host = "http://12345678:8080"
     return (ts,reqId,secret,header,userId,liveId,host)
 def md5(reqSign_):
     md5 = hashlib.md5()
